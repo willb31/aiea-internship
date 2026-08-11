@@ -1,0 +1,10 @@
+# Install swig first, Box2D will not build without it:
+#   pip install swig
+# then:
+#   pip install -r requirements.txt
+
+torch>=2.0
+numpy>=1.24
+gymnasium[box2d]>=1.0
+matplotlib>=3.7
+pandas>=2.0
